@@ -22,7 +22,7 @@ list2=`ls $SourcePath*.mnc`
 for name2 in $list2
 do
     mnc2nii $name2 $name2.nii
-    newname=`cut -d'.' -f1 <<< $name2.ncm.nc`
+    newname=`cut -d'.' -f1 <<< $name2`
     mv $name2.nii $newname.nii
     mv $newname.nii $FinalPath
 done
