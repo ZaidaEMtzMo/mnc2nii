@@ -25,7 +25,7 @@ SourcePath=/$Path$for$your$MNC.GZ$files/
 FinalPath=/$Path$to$put$the$NIFTI$files/
 ```
 
-And then, just run the file by running:
+And then, just run the writing the next line on the terminal:
 
 ```bash
 bash mnc2nii_conversion.sh
