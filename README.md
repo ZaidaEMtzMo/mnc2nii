@@ -17,13 +17,13 @@ Enter the file through any text editor (Notepad, nano, etc) and edit the file:
 
   1. Add the path of the folder to the line:
   
-  ```bash
-  SourcePath=/$Path$for$your$MNC.GZ$files/
-  ```
+```bash
+SourcePath=/$Path$for$your$MNC.GZ$files/
+```
   2. Add the path that you want for the output:
-  ```bash
-  FinalPath=/$Path$to$put$the$NIFTI$files/
-  ```
+```bash
+FinalPath=/$Path$to$put$the$NIFTI$files/
+```
 
 And then, just run the file by running:
 
